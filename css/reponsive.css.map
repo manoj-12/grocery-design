@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAA;EAAC,OAAO,EAAC,IAAI;CAAG",
+    "sources": [
+        "reponsive.scss"
+    ],
+    "names": [],
+    "file": "reponsive.css"
+}

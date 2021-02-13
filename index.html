@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grossery</title>
+  <!-- bootstrap 5 css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/reponsive.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <!-- FontAwesome icons -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- owl Carousel css -->
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light main-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+      <div class="navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex ms-auto search-fprms">
+          <input class="form-control me-2 focus-btn" type="search" placeholder="Search here..." aria-label="Search"
+            style="width: 300px; background: white; " />
+          <button class="btn search-btn" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <div class="wish-list">
+            <li class="nav-item pe-2">
+              <a class="nav-link active heart-a wish-list-icon" aria-current="page" href="#"><i class="bi bi-heart-fill heart"></i></a>
+            </li>
+          </div>
+          <div class="cart">
+            <li class="nav-item pe-2">
+              <a class="nav-link active heart-a cart-icon" aria-current="page" href="#"><i class="bi bi-bag-fill bag"></i></a>
+            </li>
+          </div>         
+        </ul>
+      </div>
+      <div class="sign-user">
+         <ul class="">
+        <li class="nav-item dropdown " >
+          <a class="nav-link sign" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <span class="sign-in"> <i class="bi bi-box-arrow-in-right pe-2 bi-sign"></i>sign in
+          </a></span>
+
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider"/>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+     
+    </div>
+  </nav>
+  <!-- End Navbar here -->
+
+  <!-- sub nav start -->
+  <div class="container-fluid sub-navbar">
+    <div class="container containers ">
+      <div class="dropdown">
+        <button class="btn dropdown-toggle focus-btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+          aria-expanded="false" style="color: white;">
+          All Category
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="pt-2 ms-5">
+        <p>Home</p>
+      </div>
+      <div class="pt-2 ms-5">
+        <p>New Product</p>
+
+      </div>
+      <div class="pt-2 ms-5">
+        <p>Contact Us</p>
+      </div>
+      <div class="pt-2 ms-5">
+        <p>Contact Us</p>
+      </div>
+      <div class="pt-2 ms-5">
+        <p>Contact Us</p>
+      </div>
+      <div class="pt-2 ms-5">
+        <p>Contact Us</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- sub nav End -->
+
+  <!-- owl-carousl -->
+    <div class="owl-carousel owl-theme owl-carousel-1">
+      <div class="item"><img src="images/c1.jpg" alt="" class="owl-image"></div>
+      <div class="item"><img src="images/mediterranean-cuisine-2378758_1920.jpg" alt="" class="owl-image"></div>
+      <div class="item"><img src="images/pumpkin-1768857_1920.jpg" alt="" class="owl-image"></div>
+    </div>
+
+  <!-- owl-carousl End-->
+
+  <!-- card start here  -->
+
+  <!-- <div class="container mt-1 mb-3">
+    <div class="row ">
+      <div class="col-lg-6">
+        <div class="our-products">
+          <h1 class="">Our Product</h1>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="container mt-4 mb-3">
+    <div class="row Best-Offers">
+      <div class="col-lg-6 col-mg-6 col-12">
+        <div class="Best-Offers">
+          <h1 class="">Our Product</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row row-class">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col-lg-3 col-md-6 col-12 mt-2">
+          <div class="card">
+            <img src="images/b.png" class="card-img-top img-1" alt="">
+            <img src="images/broccoli.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Product Name</h5>
+              <p class="card-text">1KG</p>
+              <div class="price-addcard">
+                <div class="price">
+                  <p class="price">Rs:100
+                  </p>
+                  <button type="button" class="btn btn-secondary"><i class="bi bi-bag-fill"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-2">
+          <div class="card">
+            <img src="images/tomato2.png" class="card-img-top img-1" alt="">
+            <img src="images/tamoto.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Product Name</h5>
+              <p class="card-text">1KG</p>
+              <div class="price-addcard">
+                <div class="price">
+                  <p class="price">
+                    Rs:100
+                  </p>
+                  <button type="button" class="btn btn-secondary"><i class="bi bi-bag-fill"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-2">
+          <div class="card">
+            <img src="images/carret.png" class="card-img-top img-1" alt="">
+            <img src="images/carret1.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Product Name</h5>
+              <p class="card-text">1KG</p>
+              <div class="price-addcard">
+                <div class="price">
+                  <p class="price">
+                    Rs:100
+                  </p>
+                  <button type="button" class="btn btn-secondary"><i class="bi bi-bag-fill"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-2">
+          <div class="card">
+            <img src="images/Red-peppers1.jpg" class="card-img-top img-1" alt="">
+            <img src="images/chilies2.jfif" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Product Name</h5>
+              <p class="card-text">1KG</p>
+              <div class="price-addcard">
+                <div class="price">
+                  <p class="price">
+                    Rs:100
+                  </p>
+                  <button type="button" class="btn btn-secondary"><i class="bi bi-bag-fill"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-2">
+          <div class="card">
+            <img src="images/b.png" class="card-img-top img-1" alt="">
+            <img src="images/broccoli.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Product Name</h5>
+              <p class="card-text">1KG</p>
+              <div class="price-addcard">
+                <div class="price">
+                  <p class="price">
+                    Rs:100
+                  </p>
+                  <button type="button" class="btn btn-secondary"><i class="bi bi-bag-fill"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-2">
+          <div class="card">
+            <img src="images/tomato2.png" class="card-img-top img-1" alt="">
+            <img src="images/tamoto.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Product Name</h5>
+              <p class="card-text">1KG</p>
+              <div class="price-addcard">
+                <div class="price">
+                  <p class="price">
+                    Rs:100
+                  </p>
+                  <button type="button" class="btn btn-secondary"><i class="bi bi-bag-fill"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-2">
+          <div class="card">
+            <img src="images/carret.png" class="card-img-top img-1" alt="">
+            <img src="images/carret1.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Product Name</h5>
+              <p class="card-text">1KG</p>
+              <div class="price-addcard">
+                <div class="price">
+                  <p class="price">
+                    Rs:100
+                  </p>
+                  <button type="button" class="btn btn-secondary"><i class="bi bi-bag-fill"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-2">
+          <div class="card">
+            <img src="images/Red-peppers1.jpg" class="card-img-top img-1" alt="">
+            <img src="images/chilies2.jfif" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Product Name</h5>
+              <p class="card-text">1KG</p>
+              <div class="price-addcard">
+                <div class="price">
+                  <p class="price">
+                    Rs:100
+                  </p>
+                  <button type="button" class="btn btn-secondary"><i class="bi bi-bag-fill"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- card End here  -->
+
+
+<!-- offer slider -->
+  <div class="container mt-4 mb-3">
+    <div class="row Best-Offers">
+      <div class="col-lg-6">
+        <div class="Best-Offers">
+          <h1 class="">Best Offers</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container offer-section">
+    <div class="owl-carousel owl-theme offer-slider">
+      <div class="item slider-item">
+        <img src="images/offer-slider/1.jfif" alt="">
+        <p class="offer">20% OFF</p>
+        <p class="sale">SALE</p>
+      </div>
+      <div class="item slider-item">
+        <img src="images/offer-slider/2.jfif" alt="">
+        <p class="offer">20% OFF</p>
+        <p class="sale">SALE</p>
+      </div>
+      <div class="item slider-item">
+        <img src="images/offer-slider/3.jfif" alt="">
+        <p class="offer">20% OFF</p>
+        <p class="sale">SALE</p>
+      </div>
+      <div class="item slider-item">
+        <img src="images/offer-slider/3.jfif" alt="">
+        <p class="offer">20% OFF</p>
+        <p class="sale">SALE</p>
+      </div>
+      <div class="item slider-item">
+        <img src="images/offer-slider/5.jfif" alt="">
+        <p class="offer">20% OFF</p>
+        <p class="sale">SALE</p>
+      </div>
+      <div class="item slider-item">
+        <img src="images/offer-slider/3.jfif" alt="">
+        <p class="offer">20% OFF</p>
+        <p class="sale">SALE</p>
+      </div>
+      <div class="item slider-item">
+        <img src="images/offer-slider/7.jfif" alt="">
+        <p class="offer">20% OFF</p>
+        <p class="sale">SALE</p>
+      </div>
+      <div class="item slider-item ">
+        <img src="images/offer-slider/pptato1.jfif" alt="">
+        <p class="offer">20% OFF</p>
+        <p class="sale">SALE</p>
+      </div>
+      <div class="item slider-item">
+        <img src="images/offer-slider/3.jfif" alt="">
+        <p class="offer">20% OFF</p>
+        <p class="sale">SALE</p>
+      </div>
+      <div class="item slider-item">
+        <img src="images/offer-slider/3.jfif" alt="">
+        <p class="offer">20% OFF</p>
+        <p class="sale">SALE</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- End Here -->
+
+  <!-- latest Product Start here -->
+  <div class="container mt-4 mb-3">
+    <div class="row Best-Offers">
+      <div class="col-lg-6 col-mg-6 col-12">
+        <div class="Best-Offers">
+          <h1 class="">Latest Product</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row row-class">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col-lg-3 col-md-6 col-12 mt-2">
+          <div class="card latest-prod">
+            <img src="images/Red-peppers1.jpg" class="card-img-top" alt="">
+            <img src="images/chilies2.jfif" class="card-img-top" alt="">
+            <div class="card-body">
+              <h4 class="out-stock">SOLD OUT</h4>
+              <h5 class="card-title">Product Name</h5>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="quantity">1KG</span>
+                  <span class="prices">Rs:100</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-2">
+          <div class="card latest-prod">
+            <img src="images/Red-peppers1.jpg" class="card-img-top" alt="">
+            <img src="images/chilies2.jfif" class="card-img-top" alt="">
+            <div class="card-body card-size">
+              <h4 class="out-stock">SOLD OUT</h4>
+              <h5 class="card-title">Product Name</h5>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="quantity">1KG</span>
+                  <span class="prices">Rs:100</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-2">
+          <div class="card latest-prod">
+            <img src="images/Red-peppers1.jpg" class="card-img-top" alt="">
+            <img src="images/chilies2.jfif" class="card-img-top" alt="">
+            <div class="card-body">
+              <h4 class="out-stock">SOLD OUT</h4>
+              <h5 class="card-title">Product Name</h5>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="quantity">1KG</span>
+                  <span class="prices">Rs:100</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-2">
+          <div class="card latest-prod">
+            <img src="images/Red-peppers1.jpg" class="card-img-top" alt="">
+            <img src="images/chilies2.jfif" class="card-img-top" alt="">
+            <div class="card-body">
+              <h4 class="out-stock">SOLD OUT</h4>
+              <h5 class="card-title">Product Name</h5>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="quantity">1KG</span>
+                  <span class="prices">Rs:100</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-2">
+          <div class="card latest-prod">
+            <img src="images/Red-peppers1.jpg" class="card-img-top" alt="">
+            <img src="images/chilies2.jfif" class="card-img-top" alt="">
+            <div class="card-body">
+              <h4 class="out-stock">SOLD OUT</h4>
+              <h5 class="card-title">Product Name</h5>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="quantity">1KG</span>
+                  <span class="prices">Rs:100</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- latest Product End here -->
+
+
+  <!-- Our banner start here -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-12 mt-5">
+        <div class="cards">
+          <img src="images/sub-banner/banner1.jfif" alt="" class="img-fluid" data-aos="">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 mt-5">
+        <div class="cards">
+          <img src="images/sub-banner/banner2.jpg" alt="" class="img-fluid" data-aos="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Our banner End here -->
+
+
+  <!-- fruit and vegitables section start here  -->
+  <div class="container">
+    <div class="row fruit-veg-row">
+      <div class="col-lg-6 col-md-6 col-12 mt-2 mb-0">
+        <h1>Fresh Fruit And vegitables</h4>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-12 mt-5">
+        <div class="cards">
+          <img src="images/mix.png" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 mt-5">
+        <div class="row">
+          <!-- <div class=" pb-2">
+            <div class="cards veg-fruit-card">
+              <img src="images/mix.png" alt="" class="img-fluid">
+            </div>
+            <div class="cards veg-fruit-card">
+              <img src="images/mix.png" alt="" class="img-fluid">
+            </div>
+            <div class="cards veg-fruit-card">
+              <img src="images/mix.png" alt="" class="img-fluid">
+            </div>
+            <div class="cards veg-fruit-card">
+              <img src="images/mix.png" alt="" class="img-fluid">
+            </div>
+          </div> -->
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="cards veg-fruit-card">
+              <img src="images/mix.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 pt-2">
+            <div class="cards veg-fruit-card">
+              <img src="images/mix.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 pt-2">
+            <div class="cards veg-fruit-card">
+              <img src="images/mix.png" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 pt-2">
+            <div class="cards veg-fruit-card">
+              <img src="images/mix.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- fruit and vegitables section end here  -->
+
+  <!-- footer section start here -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row footer-row">
+        <div class="col-lg-4">
+          <div class="information">
+            <p>Company</p>
+            <p><i class="bi bi-geo-alt addicon"></i>Acme Widgets
+              123 Widget Street
+              Acmeville, AC 12345
+              United States of America</p>
+            <p><i class="bi bi-envelope-fill mail-icon"></i>support@store.com</p>
+            <p><i class="bi bi-person-lines-fill contact-icon"></i>99999999</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="information">
+            <p class="get-help">Get Help</p>
+            <p class="get-help">FAQ</p>
+            <p class="get-help">Shoping</p>
+            <p class="get-help">Returm</p>
+            <p class="get-help">Order status</p>
+            <p class="get-help">Payment option</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="information">
+            <p>Categories</p>
+            <p class="category">
+              Shop AllDairy ProductsFresh VegetablesBreakfast & DairyFresh JuiceFast FoodsFish and MeatsGardenReady
+              MealsBreadsClearanceBest Discount
+            </p>
+          </div>
+        </div>
+        <!-- <div class="col-lg-3">
+          <div class="information">
+            <h3>Online Shop</h3>
+            <p>Acme Widgets
+              123 Widget Street
+              Acmeville, AC 12345
+              United States of America</p>
+            <p>support@store.com</p>
+            <p>99999999</p>
+          </div>
+        </div> -->
+        
+      </div>
+    </div>
+    <hr class="" style="color: white;">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-5 col-md-6 col-12 pb-3"><span style="color: white;">&#169; Copyright 2021-Company Name. All rights reserved.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- footer section End here -->
+  <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- bootstrap 5 js via cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <!-- owl Carousel js -->
+  <script src="js/owl.carousel.js"></script>
+  <!-- js -->
+  <script src="js/main.js"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+</body>
+
+</html>
