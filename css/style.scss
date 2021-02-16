@@ -76,83 +76,16 @@ h1 {
 
 
 .search-box{
-    width: 520px; 
+    width: 300px; 
     background: white;
 }
    
-@media screen and (max-width: 879px) {
-    .search-box{
-        width: 490px; 
-       
-    }
-    
-}
-
-@media screen and (max-width: 815px) {
-    .search-box{
-        width: 450px; 
-      
-    }
-    
-}
-
-@media screen and (max-width: 767px) {
-    .search-box{
-       
-        width: 350px; 
-      
-       
-    }
-    
-}
-
-@media screen and (max-width: 720px) {
-    .search-box{
-       
-        width: 320px; 
-      
-       
-    }
-    
-}
-
-@media screen and (max-width: 640px) {
-    .search-box{
-       
-        width: 300px; 
-      
-       
-    }
-    
-}
-
-@media screen and (max-width: 576px) {
-    .search-box{
-       
-        width: 250px;
-       
-    }
-    
-}
-
-@media screen and (max-width: 576px) {
-    .search-box{
-        position: relative;
-        // right: -10%;
-        width: 250px;
-       
-    }
-    
-}
-
-
-
 @media screen and (max-width: 991px) {
     .search-forms {
         position: absolute;
         top: 110%;
         right: 10%;
-        // display: none !important;
+        display: none !important;
     }
 }
 
@@ -514,22 +447,21 @@ h1 {
     }
 }
 
+// sub nav 
+
 .sub-navbar {
     background-color: $light-color;
     position: sticky;
     top: 72px;
     z-index: 2;
-    height: 57px;
+    // height: 57px;
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 991px) {
     .sub-navbar {
-        top: 75px !important;
-
+        display: none;
     }
 }
- 
-
 
 
 .containers {
@@ -986,3 +918,68 @@ button:focus {
 .card:hover .vegetables-ul {
     display: block;
 }
+
+
+//  pppppppppppppppppppp
+.mobile-nav{
+    background:$light-color;
+}
+@media screen and (min-width: 992px) {
+    .mobile-nav{
+        display: none;
+    }
+}
+
+
+
+.sidepanel{
+    width: 0;
+    position: fixed;
+    z-index: 4;
+    height: 250px;
+    top: 18.8%;
+    left: 0;
+    background-color: $light-color ;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: $light-color ;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
+
+  .mobile-nav-search-btn{
+      position: absolute;
+      top:10px;
+      right: 20px;
+  }
