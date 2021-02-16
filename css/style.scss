@@ -37,9 +37,30 @@ h1 {
     background-color: $medium-dark-color;
     position: sticky;
     top: 0px;
-    z-index: 2;
+    z-index: 3;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 110%;
+    left: 0%;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
 }
 
+
+
+   
 @media screen and (max-width: 991px) {
     .search-fprms {
         position: relative;
@@ -49,6 +70,10 @@ h1 {
     }
 }
 
+
+
+
+// wish icom
 
 @media screen and (max-width: 991px) {
     .wish-list-icon{  
@@ -62,23 +87,15 @@ h1 {
 }
 
 @media screen and (max-width: 834px) {
-    .wish-list-icon{  
-      
-        left: 70%;
-      
-        
+    .wish-list-icon{   
+        left: 72%;
     }
 }
 
 
 @media screen and (max-width: 820px) {
-    .wish-list-icon{  
-     
-    
-       
-        left: 60%;
-      
-        
+    .wish-list-icon{     
+        left: 60%;    
     }
 }
 
@@ -94,27 +111,57 @@ h1 {
     }
 }
 
-// @media screen and (max-width: 450px) {
-//     .wish-list-icon{  
-//         position: absolute;
-//         left: 40%;
-//     }
-// }
-
-
 
 @media screen and (max-width: 490px) {
+    .wish-list-icon{  
+        left: 63%;  
+    }
+} 
+
+
+@media screen and (max-width: 450px) {
+    .wish-list-icon{  
+        position: absolute;
+        left: 40%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    .wish-list-icon{  
+        left: 52%;  
+    }
+}
+
+
+@media screen and (max-width: 417px) {
+    .wish-list-icon{  
+        left: 49%;  
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .wish-list-icon{  
+        left: 47%;  
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .wish-list-icon{  
+        left: 45%;  
+    }
+}
+
+@media screen and (max-width: 350px) {
     .wish-list-icon{  
         left: 42%;  
     }
 }
 
-@media screen and (max-width: 450px) {
-    .wish-list-icon{  
-        left: 37%;  
-    }
-}
-
+// card icon 
 
 @media screen and (max-width: 991px) {
     .cart-icon{
@@ -129,7 +176,7 @@ h1 {
 
 @media screen and (max-width: 834px) {
     .cart-icon{
-        left: 75%;
+        left: 78%;
     }
 }
 
@@ -145,43 +192,56 @@ h1 {
     }
 }
 
-@media screen and (max-width: 490px) {
-    .cart-icon{
-        left: 52%;
-
-    }
-}
 
 
 @media screen and (max-width: 490px) {
     .cart-icon{
-        left: 52%;
+        left: 53%;
     }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 450px) {
     .cart-icon{
-        left: 45%;
+        left: 62%;
     }
 }
 
-
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 417px) {
     .cart-icon{
-        left: 47%;
+        left: 60%;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .cart-icon{
+        left: 58%;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .cart-icon{
+        left: 56%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .cart-icon{
+        left: 55%;
     }
 }
 
 
 
 
+
+
+// sign icon
 
 @media screen and (max-width: 940px) {
-        .sign{
-            left: 12%;
-        }
+    .sign{
+        left: 12%;
     }
-
+}
 
 @media screen and (max-width: 870px) { 
     .sign{
@@ -200,13 +260,35 @@ h1 {
 
 }
 
-@media screen and (max-width: 834px) { 
+@media screen and (max-width: 500px) { 
     .sign{
        
-        left: 0%;
+        left: 21%;
     }    
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
