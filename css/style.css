@@ -41,6 +41,18 @@ h1 {
   border-radius: .25rem;
 }
 
+@media screen and (max-width: 1217px) {
+  .dropdown-menu {
+    left: -35%;
+  }
+}
+
+@media screen and (max-width: 1029px) {
+  .dropdown-menu {
+    left: -47%;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .search-fprms {
     position: relative;
@@ -87,13 +99,6 @@ h1 {
 @media screen and (max-width: 490px) {
   .wish-list-icon {
     left: 63%;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .wish-list-icon {
-    position: absolute;
-    left: 40%;
   }
 }
 

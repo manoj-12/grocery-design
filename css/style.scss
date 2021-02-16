@@ -39,6 +39,8 @@ h1 {
     top: 0px;
     z-index: 3;
 }
+
+// drop down
 .dropdown-menu {
     position: absolute;
     top: 110%;
@@ -59,6 +61,20 @@ h1 {
 }
 
 
+@media screen and (max-width: 1217px) {
+    .dropdown-menu {
+        left: -35%;
+    }
+}
+
+
+@media screen and (max-width: 1029px) {
+    .dropdown-menu {
+        left: -47%;
+    }
+}
+
+
 
    
 @media screen and (max-width: 991px) {
@@ -69,6 +85,7 @@ h1 {
         display: none !important;
     }
 }
+
 
 
 
@@ -119,15 +136,6 @@ h1 {
 } 
 
 
-@media screen and (max-width: 450px) {
-    .wish-list-icon{  
-        position: absolute;
-        left: 40%;
-    }
-}
-
-
-
 
 
 @media screen and (max-width: 450px) {
@@ -160,6 +168,8 @@ h1 {
         left: 42%;  
     }
 }
+
+
 
 // card icon 
 
