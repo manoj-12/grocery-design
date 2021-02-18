@@ -1016,6 +1016,34 @@ button:focus {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .searching-form {
+       width: 250px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .searching-form {
+       width: 240px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .searching-form {
+       width: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .searching-form {
+        // margin-right: -6%;
+        width: 180px;
+    }
+}
+
+
+
+
 
 
 
@@ -1065,5 +1093,13 @@ button:focus {
        
     }
 }
+
+// @media screen and (max-width: 456px) {
+//     .mobile-nav-search-btn {
+//         right: -5%;
+//         width: 180px;
+       
+//     }
+// }
 
 

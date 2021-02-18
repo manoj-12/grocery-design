@@ -921,6 +921,30 @@ button:focus {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .searching-form {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .searching-form {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .searching-form {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .searching-form {
+    width: 180px;
+  }
+}
+
 .mobile-nav-search-btn {
   position: absolute;
   top: 11px;
