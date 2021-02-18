@@ -976,6 +976,15 @@ button:focus {
     outline: 1.5px solid #58b827;
 }
 
+
+@media screen and (max-width: 400px) {
+    .openbtn{
+        margin-left: -23px;
+    }
+}
+
+
+
 .openbtn:hover {
     background-color: #58b827;
     color: $white-color;
@@ -1036,7 +1045,7 @@ button:focus {
 
 @media screen and (max-width: 400px) {
     .searching-form {
-        // margin-right: -6%;
+        margin-right: -9%;
         width: 180px;
     }
 }
