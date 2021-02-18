@@ -78,12 +78,13 @@
   <!-- End Navbar here -->
 
   <!-- sub nav start -->
+<div class="section sub-nav-baar">
   <div class="container-fluid sub-navbar">
     <div class="container containers ">
       <div class="dropdown">
         <button class="btn dropdown-toggle focus-btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
-          aria-expanded="false" style="color: white;">
-          All Category
+          aria-expanded="false" style="color: black; height: 20px;">
+          <p>All Category</p> 
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
           <li><a class="dropdown-item" href="#">Action</a></li>
@@ -111,11 +112,8 @@
       </div>
     </div>
   </div>
-  <!-- sub nav End -->
-  <!-- mobile nav start here  -->
-  <div class="container-fluid mobile-nav">
-    <div class="container">
-      
+  <div class="container-fluid mobile-nav"  >
+    <div class="container">     
       <nav class="navbar navbar-light">
         <div class="container-fluid">
           <div id="mySidepanel" class="sidepanel">
@@ -126,8 +124,8 @@
             <a href="#">Contact</a>
           </div>
           
-          <button class="openbtn" onclick="openNav()">☰</button>
-          <form class="d-flex">
+          <button class="openbtn" onclick="openNav()">All Category</button>
+          <form class="d-flex searching-form">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success mobile-nav-search-btn" type="submit"><i class="bi bi-search"></i></button>
           </form>
@@ -136,9 +134,10 @@
     </div>
     
   </div>
+</div>
+ 
+  <!-- sub nav End -->
 
-
-  <!-- mobile nav end here -->
   <!-- owl-carousl -->
   <div class="owl-carousel owl-theme owl-carousel-1">
     <div class="item"><img src="images/c1.jpg" alt="" class="owl-image"></div>
