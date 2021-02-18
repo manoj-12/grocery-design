@@ -880,6 +880,12 @@ button:focus {
   outline: 1.5px solid #58b827;
 }
 
+@media screen and (max-width: 450px) {
+  .openbtn {
+    margin-left: -22px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .openbtn {
     margin-left: -23px;
