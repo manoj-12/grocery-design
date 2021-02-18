@@ -150,7 +150,7 @@ h1 {
 
 @media screen and (max-width: 360px) {
   .wish-list-icon {
-    left: 45%;
+    left: 33%;
   }
 }
 
@@ -242,6 +242,12 @@ h1 {
   }
 }
 
+@media screen and (max-width: 360px) {
+  .cart-icon {
+    left: 44%;
+  }
+}
+
 @media screen and (max-width: 940px) {
   .sign {
     left: 12%;
@@ -270,6 +276,13 @@ h1 {
   .sign {
     left: 12%;
     width: 189px !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .sign {
+    left: 12%;
+    width: 139px !important;
   }
 }
 
